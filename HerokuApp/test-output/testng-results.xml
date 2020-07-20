@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="13" total="14" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="13362" started-at="2020-07-19T18:57:18 IST" finished-at="2020-07-19T18:57:31 IST">
+    <groups>
+      <group name="unstable">
+        <method signature="ActionsRelated_Test.dragAndDropTest()[pri:0, instance:com.herokuapp.theinternet.test.ActionsRelated_Test@32cf48b7]" name="dragAndDropTest" class="com.herokuapp.theinternet.test.ActionsRelated_Test"/>
+      </group> <!-- unstable -->
+    </groups>
+    <test name="All Tests" duration-ms="13362" started-at="2020-07-19T18:57:18 IST" finished-at="2020-07-19T18:57:31 IST">
+      <class name="com.herokuapp.theinternet.test.ActionsRelated_Test">
+        <test-method status="PASS" signature="setUp(java.lang.String, org.testng.ITestContext, java.lang.reflect.Method)[pri:0, instance:com.herokuapp.theinternet.test.ActionsRelated_Test@32cf48b7]" name="setUp" is-config="true" duration-ms="8570" started-at="2020-07-19T18:57:18 IST" finished-at="2020-07-19T18:57:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@7b60c3e]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.herokuapp.theinternet.test.ActionsRelated_Test.dragAndDropTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="dragAndDropTest()[pri:0, instance:com.herokuapp.theinternet.test.ActionsRelated_Test@32cf48b7]" name="dragAndDropTest" duration-ms="3465" started-at="2020-07-19T18:57:27 IST" finished-at="2020-07-19T18:57:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDropTest -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.herokuapp.theinternet.test.ActionsRelated_Test@32cf48b7]" name="tearDown" is-config="true" duration-ms="719" started-at="2020-07-19T18:57:30 IST" finished-at="2020-07-19T18:57:31 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=dragAndDropTest status=SUCCESS method=ActionsRelated_Test.dragAndDropTest()[pri:0, instance:com.herokuapp.theinternet.test.ActionsRelated_Test@32cf48b7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.herokuapp.theinternet.test.ActionsRelated_Test -->
+    </test> <!-- All Tests -->
+  </suite> <!-- Suite1 -->
+</testng-results>
