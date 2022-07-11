@@ -133,5 +133,9 @@ public class BasePage {
 		JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
 		javascriptExecutor.executeScript("document.getElementById(\"" + id + "\").click();");
 	}
+	
+	public void dismissAlert() {
+		driver.switchTo( ).alert( ).dismiss();
+	}
 
 }

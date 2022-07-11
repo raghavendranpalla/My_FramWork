@@ -33,5 +33,12 @@ public class ActionsRelated extends BasePage {
 	public String expectedDropText() {
 		return "Dropped!";
 	}
-
+	
+	public void acceptAlert() {
+	 driver.switchTo( ).alert( ).accept();
+	}
+	
+	public void dismissAlert() {
+		driver.switchTo( ).alert( ).dismiss();
+	}
 }
